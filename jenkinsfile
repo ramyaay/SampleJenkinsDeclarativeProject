@@ -9,8 +9,8 @@ stages
 stage('Build') 
 {
 steps{
-echo "Building the Code.........."
-bat "mvn clean"
+echo 'Building the Code...'
+bat 'mvn clean install'
 }
 }
 stage('Test') 
